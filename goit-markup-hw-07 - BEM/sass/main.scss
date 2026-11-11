@@ -1,0 +1,10 @@
+@import "./utils/variables.scss";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+@import "./components/page-header";
+
+
+.p {
+    @include textColor();
+    font-size: 10px;
+}
